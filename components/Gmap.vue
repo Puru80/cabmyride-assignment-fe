@@ -1,9 +1,10 @@
 <template>
     <div>
+        <h2>GMap</h2>
         <GoogleMap api-key:AIzaSyDiqmN8zt_5hTBV0NM-xoPpJl1F-y322_4 :center="center" :zoom="zoom" style="width: 100%; height: 400px">
             <!-- Display postcode markers here -->
-            <GmapMarker v-for="postcode in postcodes" :key="postcode.id" :position="postcodeLatLng(postcode)"
-                :icon="postcode.isSOArea ? '/so-marker.png' : '/normal-marker.png'" />
+            <!-- <GmapMarker v-for="postcode in postcodes" :key="postcode.id" :position="postcodeLatLng(postcode)"
+                :icon="postcode.isSOArea ? '/so-marker.png' : '/normal-marker.png'" /> -->
         </GoogleMap>
     </div>
 </template>

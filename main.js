@@ -1,4 +1,4 @@
-import Map from './components/Gmap.vue';
+/* import Map from './components/Gmap.vue';
 
 const app = Vue.createApp({
     data() {
@@ -23,7 +23,16 @@ const app = Vue.createApp({
         updateImage(variantImage) {
             this.image = variantImage
         }
+    }, 
+    components: {
+        Map
     }
 })
 
-// app.component('gmap', template: 'Map');
+app.mount('#app') */
+
+import { createApp } from 'vue'
+import App from './App.vue'
+
+createApp(App).mount('#app')
+
