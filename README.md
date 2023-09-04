@@ -28,6 +28,4 @@ npm run dev
 npm run build
 ```
 
-```
 ### Before Running the project, please check the .env file once, where you have to give the Google MAps API Key
-```
