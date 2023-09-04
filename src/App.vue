@@ -3,13 +3,11 @@ import Map from './components/MapView.vue'
 </script>
 
 <template>
-  <header>
-    <h1>MapView</h1>
-  </header>
-
+  
   <main>
      <Map/>
-  </main>
+  </main> 
+
 </template>
 
 <style scoped>
